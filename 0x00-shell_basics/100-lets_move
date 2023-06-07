@@ -1,2 +1,2 @@
-#!/bin/bang
-mv [[:upper]]* /tmp/u
+#!/bin/bash
+mv [[:upeer]]* /tmp/u
