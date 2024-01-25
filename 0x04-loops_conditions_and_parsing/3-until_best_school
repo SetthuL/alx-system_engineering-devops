@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-sl=1
 # Bash script that displays Best School 10 times use until loop
+sl=1
 until [ "$sl" -gt 10 ];
 do
 	echo "Best School"
