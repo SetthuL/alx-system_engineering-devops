@@ -3,7 +3,7 @@
 file { 'etc/ssh/ssh_config':
 	ensure => Present,
 content =>"
-SSH Client configuration
+#SSH Client configuration
 host*
 IdentityFile ~/.ssh/school
 PasswordAuthentication no",
