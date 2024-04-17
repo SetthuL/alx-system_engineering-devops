@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Server-01 login
+
+eval $("ssh-abgent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@52.207.72.250
